@@ -6,21 +6,6 @@
     "main": "lib/module/index.js",
     "module": "lib/module/index.js",
     "react-native": "src/index.js",
-    "scripts": {
-        "start": "node node_modules/react-native/local-cli/cli.js start",
-        "test": "jest",
-        "storybook": "storybook start -p 7008",
-        "eslint": "./node_modules/.bin/eslint .",
-        "prepare": "bob build"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged"
-        }
-    },
-    "lint-staged": {
-        "*.js": "eslint"
-    },
     "keywords": [
         "react-native",
         "react-component",
